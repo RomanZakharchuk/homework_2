@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #08bcd4;
+    width: 900px;
+    min-height: 500px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inner_item {
+    background: white;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.inner_item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.wrap_text {
+    padding-left: 20px;
+}
+
+.wrap_text > h3 {
+    color: #fdb15a;
+    margin-bottom: 10px;
+}

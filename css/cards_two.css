@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 100px auto;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box {
+    box-shadow: 3px 3px 4px 1px black;
+    width: 170px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box > img {
+    margin: 10px 0;
+    max-width: 20px;
+}
+
+.box > h2,
+.box > p {
+    margin-bottom: 10px;
+}
+
+.box > button {
+    padding: 10px 30px;
+    background: aqua;
+    border: none;
+}
+
+
